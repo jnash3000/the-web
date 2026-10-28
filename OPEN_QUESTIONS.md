@@ -6,6 +6,8 @@ Questions the hypothesis has to answer, roughly in order of how much they matter
 
 For simple Bell tests, quantum correlations are exactly the inner products of unit vectors, so P3 holds ([Investigation 01](investigations/01-tsirelson-geometry/)). For more complicated scenarios, researchers have found an "almost quantum" set of correlations that satisfies every proposed physical principle but is slightly larger than what quantum mechanics allows.
 
+There's also a sharper challenge from the literature review: 2√2 is reached by a *single* entangled pair at any distance, and more entanglement never raises it (Investigation 01 agrees: arrows in a plane already max out). So a bottleneck limiting *how much* entanglement two regions share can't by itself explain *why* each pair stops at 2√2. P1 (capacity) and P3 (correlation geometry) may be two different things that the hypothesis currently runs together.
+
 **Progress would look like:** a definition of web capacity, made precise, that carves out the quantum set and excludes the almost-quantum points. Testing this needs a semidefinite-programming solver (e.g. `cvxpy` with SCS or MOSEK), which couldn't be installed in the environment where this repo was started. It runs fine on a normal machine.
 
 ## 2. What exactly is the "cat layer"?

@@ -14,6 +14,8 @@ Newest entries first. Each entry records what was done, what was found, and what
 
 **What changed.** Hypothesis moved to v0.3: P2 merged into P1 (capacity determined by structure, not a fixed budget), P0 added (nodes need a reader), C2 added (graph constraints on entanglement).
 
+**Literature review** (`docs/literature.md`, ~60 papers, all checked). Main takeaways for the hypothesis: (1) "capacity = narrowest cut" is already a theorem in holography and tensor networks, so P1 restates known physics in those settings; (2) a bottleneck on *how much* entanglement can't explain why a *single* pair stops at 2√2, so P1 and P3 may be separate things (added to open question 1); (3) gravity-mediated entanglement still hasn't been observed as of October 2026, and a positive result wouldn't single out this hypothesis.
+
 **Environment note.** `cvxpy` could not be installed in the workspace where this started, so SDP-based work (open question 1) is deferred. Everything else uses numpy, scipy, networkx and matplotlib.
 
 **Next steps.**
