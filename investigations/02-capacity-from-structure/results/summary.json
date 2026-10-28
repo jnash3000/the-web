@@ -1,0 +1,340 @@
+{
+  "E1_pipe_width": {
+    "D=2": [
+      {
+        "k": 1,
+        "min_cut": 1,
+        "S_in_links_mean": 0.5598784207743915,
+        "S_in_links_std": 0.19678895737773383,
+        "max_ratio_to_bound": 0.9223891822161897
+      },
+      {
+        "k": 2,
+        "min_cut": 2,
+        "S_in_links_mean": 1.1459124923116843,
+        "S_in_links_std": 0.3339070747701475,
+        "max_ratio_to_bound": 0.8056384418111469
+      },
+      {
+        "k": 3,
+        "min_cut": 3,
+        "S_in_links_mean": 1.4452498005057897,
+        "S_in_links_std": 0.2585815844125299,
+        "max_ratio_to_bound": 0.6665649718935224
+      },
+      {
+        "k": 4,
+        "min_cut": 4,
+        "S_in_links_mean": 1.8829329417028984,
+        "S_in_links_std": 0.31373417869664094,
+        "max_ratio_to_bound": 0.6301711899346322
+      },
+      {
+        "k": 5,
+        "min_cut": 4,
+        "S_in_links_mean": 2.053894951409463,
+        "S_in_links_std": 0.28486398976500693,
+        "max_ratio_to_bound": 0.6244450875936631
+      },
+      {
+        "k": 6,
+        "min_cut": 4,
+        "S_in_links_mean": 2.322333502988006,
+        "S_in_links_std": 0.2560861943915081,
+        "max_ratio_to_bound": 0.7112646453320803
+      }
+    ],
+    "D=3": [
+      {
+        "k": 1,
+        "min_cut": 1,
+        "S_in_links_mean": 0.8344497574900094,
+        "S_in_links_std": 0.07567390323610634,
+        "max_ratio_to_bound": 0.986837124860124
+      },
+      {
+        "k": 2,
+        "min_cut": 2,
+        "S_in_links_mean": 1.5999573007238967,
+        "S_in_links_std": 0.09539101997353287,
+        "max_ratio_to_bound": 0.8801465404277761
+      },
+      {
+        "k": 3,
+        "min_cut": 3,
+        "S_in_links_mean": 2.2674829512946113,
+        "S_in_links_std": 0.08830807368008976,
+        "max_ratio_to_bound": 0.8076625070940867
+      },
+      {
+        "k": 4,
+        "min_cut": 4,
+        "S_in_links_mean": 2.835868699609313,
+        "S_in_links_std": 0.05905987676030313,
+        "max_ratio_to_bound": 0.7389259705500157
+      },
+      {
+        "k": 5,
+        "min_cut": 4,
+        "S_in_links_mean": 3.060022238977383,
+        "S_in_links_std": 0.06561289804473948,
+        "max_ratio_to_bound": 0.8007056489803991
+      },
+      {
+        "k": 6,
+        "min_cut": 4,
+        "S_in_links_mean": 3.1808937138501983,
+        "S_in_links_std": 0.05714842083706731,
+        "max_ratio_to_bound": 0.8179626190928537
+      }
+    ],
+    "D=4": [
+      {
+        "k": 1,
+        "min_cut": 1,
+        "S_in_links_mean": 0.9149139215835074,
+        "S_in_links_std": 0.019420323336280014,
+        "max_ratio_to_bound": 0.9654363602342594
+      },
+      {
+        "k": 2,
+        "min_cut": 2,
+        "S_in_links_mean": 1.8069704462442508,
+        "S_in_links_std": 0.04175496874611914,
+        "max_ratio_to_bound": 0.9357487336621622
+      },
+      {
+        "k": 3,
+        "min_cut": 3,
+        "S_in_links_mean": 2.5961553133799766,
+        "S_in_links_std": 0.035371936190418146,
+        "max_ratio_to_bound": 0.8963589835173765
+      },
+      {
+        "k": 4,
+        "min_cut": 4,
+        "S_in_links_mean": 3.1819618222676818,
+        "S_in_links_std": 0.025695586069321267,
+        "max_ratio_to_bound": 0.8044036924960001
+      },
+      {
+        "k": 5,
+        "min_cut": 4,
+        "S_in_links_mean": 3.3907564861968993,
+        "S_in_links_std": 0.014299275046156955,
+        "max_ratio_to_bound": 0.8550853433976087
+      },
+      {
+        "k": 6,
+        "min_cut": 4,
+        "S_in_links_mean": 3.484704168337818,
+        "S_in_links_std": 0.009970227186850497,
+        "max_ratio_to_bound": 0.8784360195425339
+      }
+    ]
+  },
+  "E2_saturation_vs_link_size": {
+    "graph": "random 3-regular, 10 nodes, 6 boundary legs, 20 networks per D",
+    "regions_per_network": 41,
+    "by_D": {
+      "2": {
+        "mean_ratio_vonneumann": 0.5445592430106709,
+        "p10_ratio": 0.3586700898107771,
+        "p90_ratio": 0.74064563568705,
+        "mean_ratio_renyi2": 0.40523443812798693
+      },
+      "3": {
+        "mean_ratio_vonneumann": 0.7600120366809788,
+        "p10_ratio": 0.643386290572654,
+        "p90_ratio": 0.8897468107183277,
+        "mean_ratio_renyi2": 0.6509278833190365
+      },
+      "4": {
+        "mean_ratio_vonneumann": 0.866353031529331,
+        "p10_ratio": 0.7707482052953862,
+        "p90_ratio": 0.958206375063149,
+        "mean_ratio_renyi2": 0.8017512754533791
+      },
+      "5": {
+        "mean_ratio_vonneumann": 0.9044062406103778,
+        "p10_ratio": 0.8284683130073339,
+        "p90_ratio": 0.9780123925423506,
+        "mean_ratio_renyi2": 0.859012021579087
+      },
+      "6": {
+        "mean_ratio_vonneumann": 0.9234976246585613,
+        "p10_ratio": 0.8583877547514296,
+        "p90_ratio": 0.9871998882870969,
+        "mean_ratio_renyi2": 0.8875252959930653
+      }
+    },
+    "bound_checks": 4100,
+    "bound_violations": 0
+  },
+  "E3_scaling_by_shape": {
+    "D": 2,
+    "legs": 16,
+    "samples": 8,
+    "rows": {
+      "chain": [
+        {
+          "length": 1,
+          "S_mean_bits": 0.49565119937693525,
+          "min_cut_mean": 1.0
+        },
+        {
+          "length": 2,
+          "S_mean_bits": 0.6915784859066856,
+          "min_cut_mean": 1.8666666666666667
+        },
+        {
+          "length": 3,
+          "S_mean_bits": 0.7386893520788591,
+          "min_cut_mean": 1.8571428571428572
+        },
+        {
+          "length": 4,
+          "S_mean_bits": 0.7301666298228902,
+          "min_cut_mean": 1.8461538461538463
+        },
+        {
+          "length": 5,
+          "S_mean_bits": 0.7065860143600866,
+          "min_cut_mean": 1.8333333333333333
+        },
+        {
+          "length": 6,
+          "S_mean_bits": 0.6957093798865669,
+          "min_cut_mean": 1.8181818181818181
+        },
+        {
+          "length": 7,
+          "S_mean_bits": 0.6975501187304023,
+          "min_cut_mean": 1.8
+        },
+        {
+          "length": 8,
+          "S_mean_bits": 0.6990531841307386,
+          "min_cut_mean": 1.7777777777777777
+        },
+        {
+          "length": 9,
+          "S_mean_bits": 0.7327655876326645,
+          "min_cut_mean": 1.75
+        },
+        {
+          "length": 10,
+          "S_mean_bits": 0.739703847747932,
+          "min_cut_mean": 1.7142857142857142
+        },
+        {
+          "length": 11,
+          "S_mean_bits": 0.7499459211383904,
+          "min_cut_mean": 1.6666666666666667
+        },
+        {
+          "length": 12,
+          "S_mean_bits": 0.7336414923203405,
+          "min_cut_mean": 1.6
+        },
+        {
+          "length": 13,
+          "S_mean_bits": 0.6574386208665544,
+          "min_cut_mean": 1.5
+        },
+        {
+          "length": 14,
+          "S_mean_bits": 0.5376668022084572,
+          "min_cut_mean": 1.3333333333333333
+        },
+        {
+          "length": 15,
+          "S_mean_bits": 0.40042114907899856,
+          "min_cut_mean": 1.0
+        }
+      ],
+      "tree": [
+        {
+          "length": 1,
+          "S_mean_bits": 0.22926038626094883,
+          "min_cut_mean": 1.0
+        },
+        {
+          "length": 2,
+          "S_mean_bits": 0.32322796252197,
+          "min_cut_mean": 1.4666666666666666
+        },
+        {
+          "length": 3,
+          "S_mean_bits": 0.3886205870224241,
+          "min_cut_mean": 2.0
+        },
+        {
+          "length": 4,
+          "S_mean_bits": 0.4155357918377064,
+          "min_cut_mean": 2.1538461538461537
+        },
+        {
+          "length": 5,
+          "S_mean_bits": 0.4635014437282739,
+          "min_cut_mean": 2.5
+        },
+        {
+          "length": 6,
+          "S_mean_bits": 0.4826220993901073,
+          "min_cut_mean": 2.5454545454545454
+        },
+        {
+          "length": 7,
+          "S_mean_bits": 0.49398927045012553,
+          "min_cut_mean": 2.6
+        },
+        {
+          "length": 8,
+          "S_mean_bits": 0.4896227232224262,
+          "min_cut_mean": 2.6666666666666665
+        },
+        {
+          "length": 9,
+          "S_mean_bits": 0.5305520340815697,
+          "min_cut_mean": 2.75
+        },
+        {
+          "length": 10,
+          "S_mean_bits": 0.5219052323637036,
+          "min_cut_mean": 2.5714285714285716
+        },
+        {
+          "length": 11,
+          "S_mean_bits": 0.5230692665195273,
+          "min_cut_mean": 2.3333333333333335
+        },
+        {
+          "length": 12,
+          "S_mean_bits": 0.48859053773732725,
+          "min_cut_mean": 2.0
+        },
+        {
+          "length": 13,
+          "S_mean_bits": 0.49392387735262167,
+          "min_cut_mean": 2.0
+        },
+        {
+          "length": 14,
+          "S_mean_bits": 0.38695328201283513,
+          "min_cut_mean": 1.3333333333333333
+        },
+        {
+          "length": 15,
+          "S_mean_bits": 0.27650899113977995,
+          "min_cut_mean": 1.0
+        }
+      ]
+    },
+    "corr_S_vs_mincut": {
+      "chain": 0.910285115987027,
+      "tree": 0.901847405075539
+    }
+  },
+  "runtime_seconds": 38.2
+}

@@ -1,0 +1,162 @@
+{
+  "E1_graph_cuts": {
+    "random_weighted_graphs": 1500,
+    "mmi_violations": 0,
+    "largest_I3": 1.3322676295501878e-15
+  },
+  "E2_random_webs": [
+    {
+      "D": 2,
+      "fraction_violating": 0.006,
+      "largest_I3_in_links": 0.0013955897287902808,
+      "checks": 500
+    },
+    {
+      "D": 3,
+      "fraction_violating": 0.0,
+      "largest_I3_in_links": -0.05429667687994622,
+      "checks": 500
+    },
+    {
+      "D": 4,
+      "fraction_violating": 0.0,
+      "largest_I3_in_links": -0.1000066661991017,
+      "checks": 500
+    },
+    {
+      "D": 5,
+      "fraction_violating": 0.0,
+      "largest_I3_in_links": -0.1516981543367383,
+      "checks": 500
+    }
+  ],
+  "E3_states": {
+    "Ising ring, paramagnet (h=2)": {
+      "fraction_violating": 0.66,
+      "largest_I3_bits": 0.00019784456043270282,
+      "smallest_I3_bits": -0.006771112571855975,
+      "triples": 600,
+      "fraction_clearly_violating": 0.0
+    },
+    "Ising ring, critical (h=1)": {
+      "fraction_violating": 1.0,
+      "largest_I3_bits": 0.39112767420336536,
+      "smallest_I3_bits": 0.17893957232475777,
+      "triples": 600,
+      "fraction_clearly_violating": 1.0
+    },
+    "Ising ring, cat-like (h=0.5)": {
+      "fraction_violating": 1.0,
+      "largest_I3_bits": 0.9939334598506753,
+      "smallest_I3_bits": 0.846260452372535,
+      "triples": 600,
+      "fraction_clearly_violating": 1.0
+    },
+    "Ising ring, critical, nudged (g=0.1)": {
+      "fraction_violating": 0.25166666666666665,
+      "largest_I3_bits": 4.508997864638431e-05,
+      "smallest_I3_bits": -0.002890053803786388,
+      "triples": 600,
+      "fraction_clearly_violating": 0.0
+    },
+    "GHZ (cat) state": {
+      "fraction_violating": 1.0,
+      "largest_I3_bits": 1.0,
+      "smallest_I3_bits": 1.0,
+      "triples": 600,
+      "fraction_clearly_violating": 1.0
+    },
+    "W state": {
+      "fraction_violating": 1.0,
+      "largest_I3_bits": 0.24511249783653122,
+      "smallest_I3_bits": 0.10266141042497101,
+      "triples": 600,
+      "fraction_clearly_violating": 1.0
+    },
+    "Random state": {
+      "fraction_violating": 0.0,
+      "largest_I3_bits": -0.0017772833631166662,
+      "smallest_I3_bits": -3.891870131768283,
+      "triples": 600,
+      "fraction_clearly_violating": 0.0
+    }
+  },
+  "E3_note": "600 random triples of disjoint blocks (1-3 sites each) on a 12-site ring; 'clearly violating' means I3 > 0.01 bits",
+  "E4_symmetry_breaking_nudge": {
+    "critical (h=1)": [
+      {
+        "g": 0.0,
+        "largest_I3_bits": 0.3911276742033645,
+        "fraction_clearly_violating": 1.0
+      },
+      {
+        "g": 0.001,
+        "largest_I3_bits": 0.3844512221991814,
+        "fraction_clearly_violating": 1.0
+      },
+      {
+        "g": 0.003,
+        "largest_I3_bits": 0.3378802794243341,
+        "fraction_clearly_violating": 1.0
+      },
+      {
+        "g": 0.01,
+        "largest_I3_bits": 0.13316864501781012,
+        "fraction_clearly_violating": 1.0
+      },
+      {
+        "g": 0.03,
+        "largest_I3_bits": 0.011217238374600036,
+        "fraction_clearly_violating": 0.005
+      },
+      {
+        "g": 0.1,
+        "largest_I3_bits": 4.508997864399733e-05,
+        "fraction_clearly_violating": 0.0
+      },
+      {
+        "g": 0.3,
+        "largest_I3_bits": 8.418109745389479e-08,
+        "fraction_clearly_violating": 0.0
+      }
+    ],
+    "cat-like (h=0.5)": [
+      {
+        "g": 0.0,
+        "largest_I3_bits": 0.9939334598506708,
+        "fraction_clearly_violating": 1.0
+      },
+      {
+        "g": 0.001,
+        "largest_I3_bits": 3.5352820272411406e-05,
+        "fraction_clearly_violating": 0.0
+      },
+      {
+        "g": 0.003,
+        "largest_I3_bits": 2.4810979817845025e-06,
+        "fraction_clearly_violating": 0.0
+      },
+      {
+        "g": 0.01,
+        "largest_I3_bits": -1.0955535294926433e-08,
+        "fraction_clearly_violating": 0.0
+      },
+      {
+        "g": 0.03,
+        "largest_I3_bits": 6.256870160870065e-10,
+        "fraction_clearly_violating": 0.0
+      },
+      {
+        "g": 0.1,
+        "largest_I3_bits": 3.1036572617493263e-11,
+        "fraction_clearly_violating": 0.0
+      },
+      {
+        "g": 0.3,
+        "largest_I3_bits": 6.385144149523292e-13,
+        "fraction_clearly_violating": 0.0
+      }
+    ]
+  },
+  "runtime_seconds": 11.3
+}

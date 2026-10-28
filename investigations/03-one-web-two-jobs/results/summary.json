@@ -1,0 +1,264 @@
+{
+  "E1_E2_geometry_from_entanglement": {
+    "ring_paramagnet_h2": {
+      "effective_dimension": 2,
+      "mi_concentration": 0.8403408407164233,
+      "total_mi_bits": 2.82181471864525,
+      "largest_distance": 8.36992913970089,
+      "rank_agreement_with_true_distance": 0.9888649413281551
+    },
+    "ring_critical_h1": {
+      "effective_dimension": 2,
+      "mi_concentration": 0.25727185248011963,
+      "total_mi_bits": 28.087150854906547,
+      "largest_distance": 0.8295241673345453,
+      "rank_agreement_with_true_distance": 0.9888846286558958
+    },
+    "ring_cat_h0.5": {
+      "effective_dimension": 5,
+      "mi_concentration": 0.15534772321482915,
+      "total_mi_bits": 81.39756636805025,
+      "largest_distance": 0.011916128885147814,
+      "rank_agreement_with_true_distance": 0.98884525517621
+    },
+    "grid4x4_open_h3": {
+      "effective_dimension": 2,
+      "mi_concentration": 0.44522751257735704,
+      "total_mi_bits": 3.642333084331726,
+      "largest_distance": 5.279428415324906,
+      "rank_agreement_with_true_distance": 0.9852221366559398
+    },
+    "torus4x4_h3": {
+      "effective_dimension": 4,
+      "mi_concentration": 0.18711705533395837,
+      "total_mi_bits": 15.023516853139903,
+      "largest_distance": 0.7319290849930182,
+      "rank_agreement_with_true_distance": 0.9239114353477378
+    },
+    "ghz_14": {
+      "pairwise_mi_bits_min": 1.0,
+      "pairwise_mi_bits_max": 1.0,
+      "mi_concentration": 0.15384615384615385,
+      "note": "every pair has exactly 1 bit; all reconstructed distances are zero"
+    },
+    "haar_random_14": {
+      "effective_dimension": 6,
+      "mi_concentration": 0.25684180992392996,
+      "total_mi_bits": 0.03798957114946955,
+      "largest_distance": 2.0231070182971713,
+      "rank_agreement_with_true_distance": 0.05507364122147744
+    }
+  },
+  "E3_scrambled_labels": {
+    "recovered_neighbour_pairs_correct": 14,
+    "out_of": 14,
+    "rank_agreement_with_hidden_ring": 0.9888964416169709
+  },
+  "E4_recarving": {
+    "nonlocal": [
+      {
+        "depth": 0,
+        "rank_agreement": 0.9888649413281551,
+        "mi_concentration": 0.8403408407164233,
+        "effective_dimension": 2.0,
+        "total_mi_bits": 2.82181471864525
+      },
+      {
+        "depth": 1,
+        "rank_agreement": 0.20721668897661322,
+        "mi_concentration": 0.8519317838458147,
+        "effective_dimension": 3.4,
+        "total_mi_bits": 6.312368903493715
+      },
+      {
+        "depth": 2,
+        "rank_agreement": -0.008759922053037456,
+        "mi_concentration": 0.800156101934224,
+        "effective_dimension": 3.8,
+        "total_mi_bits": 5.756406138475922
+      },
+      {
+        "depth": 3,
+        "rank_agreement": -0.0677343779853913,
+        "mi_concentration": 0.7373976437149716,
+        "effective_dimension": 4.0,
+        "total_mi_bits": 4.197004602480879
+      },
+      {
+        "depth": 4,
+        "rank_agreement": 0.03329221341392485,
+        "mi_concentration": 0.662486825175155,
+        "effective_dimension": 4.6,
+        "total_mi_bits": 2.065280759954835
+      },
+      {
+        "depth": 6,
+        "rank_agreement": 0.09944822706543552,
+        "mi_concentration": 0.645523461601546,
+        "effective_dimension": 5.4,
+        "total_mi_bits": 0.6075342960229504
+      },
+      {
+        "depth": 8,
+        "rank_agreement": -0.15203030744557283,
+        "mi_concentration": 0.5625066122893803,
+        "effective_dimension": 5.8,
+        "total_mi_bits": 0.17948576289143192
+      },
+      {
+        "depth": 12,
+        "rank_agreement": -0.0072604759358508575,
+        "mi_concentration": 0.3241958078915631,
+        "effective_dimension": 6.2,
+        "total_mi_bits": 0.04590117197067323
+      }
+    ],
+    "local": [
+      {
+        "depth": 0,
+        "rank_agreement": 0.9888649413281551,
+        "mi_concentration": 0.8403408407164233,
+        "effective_dimension": 2.0,
+        "total_mi_bits": 2.82181471864525
+      },
+      {
+        "depth": 1,
+        "rank_agreement": 0.8895210424512937,
+        "mi_concentration": 0.9413763350851523,
+        "effective_dimension": 2.0,
+        "total_mi_bits": 7.655669531013555
+      },
+      {
+        "depth": 2,
+        "rank_agreement": 0.8861162851024942,
+        "mi_concentration": 0.7709953662147088,
+        "effective_dimension": 2.0,
+        "total_mi_bits": 5.998121695032642
+      },
+      {
+        "depth": 3,
+        "rank_agreement": 0.8792053041262882,
+        "mi_concentration": 0.6954073665960219,
+        "effective_dimension": 3.0,
+        "total_mi_bits": 4.1319016450067325
+      },
+      {
+        "depth": 4,
+        "rank_agreement": 0.8422715787134816,
+        "mi_concentration": 0.6287209315667572,
+        "effective_dimension": 3.4,
+        "total_mi_bits": 2.731285054071308
+      },
+      {
+        "depth": 6,
+        "rank_agreement": 0.8270854590153588,
+        "mi_concentration": 0.5695673637198081,
+        "effective_dimension": 4.4,
+        "total_mi_bits": 1.041827199095007
+      },
+      {
+        "depth": 8,
+        "rank_agreement": 0.8017865335494436,
+        "mi_concentration": 0.5497543168991778,
+        "effective_dimension": 4.6,
+        "total_mi_bits": 0.4112277077382556
+      },
+      {
+        "depth": 12,
+        "rank_agreement": 0.6606131179147783,
+        "mi_concentration": 0.4213847057845609,
+        "effective_dimension": 5.4,
+        "total_mi_bits": 0.08960929237698512
+      }
+    ]
+  },
+  "E5_coupling_range": {
+    "N": 12,
+    "h": 2.5,
+    "rows": [
+      {
+        "alpha": 0.0,
+        "rank_agreement": NaN,
+        "mi_concentration": 0.18181818181819326,
+        "effective_dimension": 6,
+        "all_pairs_identical": true
+      },
+      {
+        "alpha": 0.5,
+        "rank_agreement": 0.9846008723109639,
+        "mi_concentration": 0.23954142839013992,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": 1.0,
+        "rank_agreement": 0.9846008723109639,
+        "mi_concentration": 0.34874586505389843,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": 1.5,
+        "rank_agreement": 0.9846008723109639,
+        "mi_concentration": 0.49746123111189083,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": 2.0,
+        "rank_agreement": 0.9846008723109639,
+        "mi_concentration": 0.6377403022179436,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": 3.0,
+        "rank_agreement": 0.9846008723109639,
+        "mi_concentration": 0.794169000526463,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": 4.0,
+        "rank_agreement": 0.9846214265799983,
+        "mi_concentration": 0.8485233351819611,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": 6.0,
+        "rank_agreement": 0.9846419821363428,
+        "mi_concentration": 0.8777146407921301,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      },
+      {
+        "alpha": "inf",
+        "rank_agreement": 0.9846214265799983,
+        "mi_concentration": 0.8852337177007543,
+        "effective_dimension": 2,
+        "all_pairs_identical": false
+      }
+    ]
+  },
+  "E6_area_law": {
+    "regions": 400,
+    "ground_state_fit": {
+      "bits_per_boundary_link": 0.05335991522237971,
+      "bits_per_site": 0.0073106787671181036,
+      "intercept": 0.039348458349589735,
+      "r2": 0.9858046314420105,
+      "corr_with_boundary": 0.9890477418445656,
+      "corr_with_size": 0.6981567472490716
+    },
+    "random_state_fit": {
+      "bits_per_boundary_link": 0.019666837501976887,
+      "bits_per_site": 0.89005321137579,
+      "intercept": 0.2850550962687601,
+      "r2": 0.9908227522216759,
+      "corr_with_boundary": 0.6492751668028833,
+      "corr_with_size": 0.9952286873188063
+    }
+  },
+  "runtime_seconds": 8.2
+}

@@ -1,0 +1,155 @@
+{
+  "E1_chsh_by_geometry": {
+    "classical_enumeration": 2.0,
+    "vector_dim_1": 2.0,
+    "vector_dim_2": 2.8284271247461907,
+    "vector_dim_3": 2.8284271247461907,
+    "vector_dim_4": 2.8284271247461903,
+    "qubit_bell_state_value": 2.82842712474619,
+    "tsirelson_strategy_from_2d_vectors": 2.82842712474619,
+    "entangled_pairs_used": 1,
+    "tsirelson_bound_exact": 2.8284271247461903,
+    "pr_box_value": 4.0,
+    "parallelogram_max_deviation": 2.6645352591003757e-15,
+    "max_of_plus_plus_minus_sampled": 2.8284271246780373
+  },
+  "E2_noisy_pr_box": {
+    "pr_box_best_min_eigenvalue": -0.4142135623741088,
+    "critical_visibility": 0.7071067812573801,
+    "critical_visibility_expected": 0.7071067811865475,
+    "critical_chsh_score": 2.8284271250295205,
+    "tlm_criterion_agrees_below": true,
+    "tlm_criterion_agrees_above": true
+  },
+  "E3_chained_bell": {
+    "rows": [
+      {
+        "n": 2,
+        "classical": 2.0,
+        "vector": 2.8284271247461903,
+        "vector_dim2": 2.8284271247461907,
+        "quantum_formula": 2.8284271247461903,
+        "algebraic_max": 4
+      },
+      {
+        "n": 3,
+        "classical": 4.0,
+        "vector": 5.196152422706632,
+        "vector_dim2": 5.196152422706632,
+        "quantum_formula": 5.196152422706632,
+        "algebraic_max": 6
+      },
+      {
+        "n": 4,
+        "classical": 6.0,
+        "vector": 7.391036260090285,
+        "vector_dim2": 7.391036260090286,
+        "quantum_formula": 7.391036260090294,
+        "algebraic_max": 8
+      },
+      {
+        "n": 5,
+        "classical": 8.0,
+        "vector": 9.510565162951503,
+        "vector_dim2": 9.510565162951501,
+        "quantum_formula": 9.510565162951535,
+        "algebraic_max": 10
+      },
+      {
+        "n": 6,
+        "classical": 10.0,
+        "vector": 11.591109915468746,
+        "vector_dim2": 11.591109915468746,
+        "quantum_formula": 11.59110991546882,
+        "algebraic_max": 12
+      },
+      {
+        "n": 7,
+        "classical": 12.0,
+        "vector": 13.648990770545401,
+        "vector_dim2": 13.6489907705454,
+        "quantum_formula": 13.648990770545531,
+        "algebraic_max": 14
+      },
+      {
+        "n": 8,
+        "classical": 14.0,
+        "vector": 15.692564486451484,
+        "vector_dim2": 15.692564486451491,
+        "quantum_formula": 15.692564486451687,
+        "algebraic_max": 16
+      },
+      {
+        "n": 9,
+        "classical": 16.0,
+        "vector": 17.726539554219475,
+        "vector_dim2": 17.726539554219467,
+        "quantum_formula": 17.726539554219745,
+        "algebraic_max": 18
+      },
+      {
+        "n": 10,
+        "classical": 18.0,
+        "vector": 19.75376681190238,
+        "vector_dim2": 19.753766811902388,
+        "quantum_formula": 19.753766811902757,
+        "algebraic_max": 20
+      }
+    ],
+    "max_abs_error_vs_formula": 3.765876499528531e-13,
+    "max_abs_error_dim2_vs_formula": 3.694822225952521e-13
+  },
+  "E4_random_games": {
+    "n_games": 60,
+    "size": 6,
+    "dims": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12
+    ],
+    "entangled_pairs_for_dim": [
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      6
+    ],
+    "mean_fraction_of_quantum_value": [
+      0.9416889973627696,
+      0.9997530109163341,
+      0.9999999996000599,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "min_fraction_of_quantum_value": [
+      0.8426095432840174,
+      0.9934177633817203,
+      0.9999999760036006,
+      0.9999999999999988,
+      0.9999999999999988,
+      0.9999999999999988,
+      0.9999999999999997,
+      1.0,
+      1.0
+    ],
+    "quantum_over_classical_mean": 1.0638311841106036,
+    "quantum_over_classical_max": 1.1867893118116883,
+    "grothendieck_upper_bound_real": 1.7822,
+    "tsirelson_strategy_max_mismatch": 1.4210854715202004e-14
+  },
+  "runtime_seconds": 63.8
+}
